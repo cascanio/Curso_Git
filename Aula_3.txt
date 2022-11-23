@@ -1,0 +1,279 @@
+    1  apt update
+    2  apt intall wine
+    3  apt install wine
+    4  /home/consuelo/Downloads/opens-3.19.28.exe
+    5  cd /home/consuelo/Downloads
+    6  wine opens-3.19.28.exe
+    7  apt install wireguard wireguard-tools wireguard-dkms
+    8  dpkg --configure -a
+    9  lsmod| grep wire
+   10  wireguard
+   11  modprobe wireguard
+   12  lsmod| grep wire
+   13  wg
+   14  wg help
+   15  dpkg -l| grep wireg
+   16  cd /etc/wireguard/
+   17  ls -l
+   18  wg genkey 
+   19  wg genkey > private
+   20  chmod 600 private 
+   21  ls -l
+   22  cat private 
+   23  wg genkey > private
+   24  cat private 
+   25  wg pubkey
+   26  wg pubkey UL/NGFKio0ITXAq+POCszzptouyFmqvybv5xCCZXol4=
+   27  wg pubkey `echo UL/NGFKio0ITXAq+POCszzptouyFmqvybv5xCCZXol4=`
+   28  wg pubkey < private
+   29  wg pubkey < private > public
+   30  ls -l
+   31  cat public 
+   32  cat *
+   33  wine [Interface]
+   34  PrivateKey = OA3MKa2MDgOhYzIpTDh5i01SHvT5WRgz+7DZHczzQlI=
+   35  Address = 10.2.0.12
+   36  SaveConfig = false
+   37  [Peer]
+   38  PublicKey = uZWUOYvJhJTaqfiIbe3biVBDalQsa9Cw82VGTs3+ZEE=
+   39  AllowedIPs = 10.9.0.0/24, 10.4.0.0/24, 10.2.0.0/24, 10.0.0.0/24, 10.1.0.0/24, 10.200.0.0/16, 10.3.0.0/24
+   40  vim opens.conf
+   41  apt install vim
+   42  vim opens.conf
+   43  ls
+   44  wg-quick up opens.conf
+   45  wg-quick up opens
+   46  ifconfig
+   47  ping 10.2.0.4
+   48  ping 10.2.0.254
+   49  sudo su -m
+   50  apt-get update
+   51  apt-get install wireguard wireguard-dkms wireguard-tools
+   52  ls /etc/wireguard/
+   53  cd /etc/wireguard/
+   54  ls
+   55  wg
+   56  ls
+   57  dpkg -l | grep wire
+   58  dpkg-reconfigure wireguard-dkms
+   59  ps ax grep 
+   60  ps ax| grp
+   61  ps ax| grep apt
+   62  apt-get update
+   63  apt install wireguard-dkms
+   64  reset
+   65  sudo su
+   66  ssh opens@10.1.0.226 -p2522 -A
+   67  --help
+   68  ssh opens@10.1.0.226 -p2522 -A
+   69  sudo su
+   70  ssh opens@cl4584sr1.node.pbx.snep7.com -p2522 -A
+   71  ssh root@cl4584sr1.node.pbx.snep7.com -p2522 -A
+   72  ssh opens@cl4584sr1.node.pbx.snep7.com -p2522 -A
+   73  exit
+   74  betha
+   75  alias betha
+   76  ssh root@200.5.9.48 -p32120
+   77  cresol
+   78  alias
+   79  alias cresol
+   80  exit
+   81  vpn
+   82  ssh opens@10.0.0.92 -p2522 -A
+   83  von
+   84  vpn
+   85  ssh opens@10.0.0.19 -p2522 -A
+   86  ssh root@10.0.0.19 -p2522 -A
+   87  Permission denied (publickey).
+   88  ssh opens@cl150sr5.sipwan.service.pbx.snep7.com -p 2522 -A
+   89  ls
+   90  scp scp 60_
+   91  ls
+   92  scp -P2522 60_ESPERA_53ANOS.wav opens@cl150sr5.sipwan.service.pbx.snep7.com:/home/opens
+   93  ssh root@201.48.195.153 -p2522 -A -L9999:localhost:80
+   94  ls
+   95  cd var
+   96  ls
+   97  cd ..
+   98  cd home
+   99  ls
+  100  cd consuelo
+  101  ls
+  102  scp -P2522 root@200.146.123.139:/var/www/snep/arquivos/storage1/2022-01-11/1641915352_20220111_1235_6004_10261032.WAV .
+  103  scp -P2522 root@200.146.123.139:/var/www/sneplivre/arquivos/storage1/2022-01-11/1641907590_20220111_1026_9163_999247486.WAV .
+  104  md temp
+  105  scp -P2522 root@200.146.123.139:/tmp/1641907590_20220111_1026_9163_999247486.WAV .
+  106  ipconfig
+  107  iconfig
+  108  iwconfig
+  109  ifconfig
+  110  scp -P2522 root@200.146.123.139:/tmp/1641907590_20220111_1026_9163_999247486.WAV .
+  111  wget http://localhost:9988/snep/arquivos/storage1/2022-01-11/1641907590_20220111_1026_9163_999247486.WAV
+  112  wget http://localhost:9988/snep/arquivos/storage1/2022-01-11/1641907603_20220111_1026_6000_48996797426.WAV
+  113  wget http://localhost:9988/snep/arquivos/storage1/2022-01-11/1641915352_20220111_1235_6004_10261032.WAV
+  114  mkdir /media/usb
+  115  ls -l /dev/sd*
+  116  ls |grep wireguard
+  117  cat /etc/wireguard
+  118  cat /etc/wireguard/wg0.conf
+  119  cd etc
+  120  scp -P2522 opens@CL4601SR1:/opt/opens/storage/2021-10-04/1633351605_20211004_0946_7879_999340202.wav .
+  121  scp -P2522 root@CL4601SR1:/opt/opens/storage/2021-10-04/1633351605_20211004_0946_7879_999340202.wav .
+  122  scp -P2522 opens@10.1.0.163:/opt/opens/storage/2021-10-04/1633351605_20211004_0946_7879_999340202.wav .
+  123  scp -P2522 root@10.1.0.163:/opt/opens/storage/2021-10-04/1633351605_20211004_0946_7879_999340202.wav .
+  124  wget
+  125  wget root@CL4601SR1:/opt/opens/storage/2021-10-04
+  126  wget root@10.1.0.163:/opt/opens/storage/2021-10-04
+  127  wget root@10.1.0.163:opt/opens/storage/2021-10-04
+  128  scp -P2522 opens@10.1.0.163:/opt/opens/storage/2021-10-04#/1633351605_20211004_0946_7879_999340202.wav .
+  129  scp -P2522 root@10.1.0.163:/opt/opens/storage/2021-10-04#/1633351605_20211004_0946_7879_999340202.wav .
+  130  cd wireguard
+  131  cat wg0.conf
+  132  ls
+  133  vim wg0.conf
+  134  route -n
+  135  cat opens.conf
+  136  rm wgo.conf
+  137  rm wg0.conf
+  138  cat opens.conf
+  139  vim opens.conf
+  140  cd /etc/wireguard
+  141  vim opens.conf
+  142  ssh root@200.5.9.48 -p32120
+  143  scp -P32120 root@gpk-snep02:/var/www/html/snep/arquivos/2022-01-17/1642448335_20220117_1638_21965736872_5439054800.wav .
+  144  cd /etc/wireguard
+  145  ls
+  146  vim opens.conf
+  147  ssh opens@10.1.0.59 -p2522 -A
+  148  /etc/wireguard
+  149  /etc
+  150  /ect
+  151  cd /
+  152  ls
+  153  cd etc
+  154  cd wireguard
+  155  ls
+  156  vim opens.conf
+  157  vpn
+  158  cd wireguard
+  159  vim opens.conf
+  160  cd /etc/wireguard
+  161  ls
+  162  cat opens.conf
+  163  vpn
+  164  cat /etc/wireguard/opens.conf
+  165  vim /etc/wireguard/opens.conf
+  166  cd /etc/wireguard
+  167  vim opens.conf
+  168  cat opens.conf
+  169  etc
+  170  cd etc
+  171  cd /etc/wireguard
+  172  vim opens.conf
+  173  vpn
+  174  wget http://localhost:9988/snep/arquivos/storage1/2022-01-26/1643202453_20220126_1007_6016_984829014.WAV
+  175  cd Downloads/
+  176  wine opens-3.19.28
+  177  wine opens-3.19.282
+  178  wine opens-3.19.282.exe
+  179  wine opens-3.19.29.exe
+  180  scp -P2522 root@201.48.195.153:/var/www/html/snep/arquivos/2022-03-16/1647438641_20220316_1050_2249_32109928.wav .
+  181  scp -P2522 root@201.4suporte@201.48.195.153:/var/www/html/snep/arquivos/2022-03-16/1647438641_20220316_1050_2249_32109928.wav .
+  182  scp -P2522 root@201.48.195.153:/var/www/html/snep/arquivos/2022-03-16/1647438641_20220316_1050_2249_32109928.wav .
+  183  scp -P2522 root@201.48.195.153:/var/log/asterisk/full .
+  184  scp -P2522 root@10.1.0.107:/opt/opens/snep7/log/asterisk/full.3.gz .
+  185  scp -P2522 opens@10.1.0.107:/opt/opens/snep7/log/asterisk/full.3.gz .
+  186  scp -P2522 root@cl4624sr1:/opt/opens/snep7/log/asterisk/full.3.gz .
+  187  rasterisk -m
+  188  ssh opens@10.1.0.234 -p2522 -a
+  189  ssh-keygen -f "/home/consuelo/.ssh/known_hosts" -R "[10.1.0.234]:2522"
+  190  ssh opens@10.1.0.234 -p2522 -a
+  191  ssh opens@10.1.0.234 -p2522 -A
+  192  ssh-keygen -f "/home/consuelo/.ssh/known_hosts" -R "[10.1.0.234]:2522"
+  193  sync;echo 3 > /proc/sys/vm/drop_caches;sync
+  194  htop
+  195  apt update
+  196  apt upgrade
+  197  gzip
+  198  gzip -d full.1.gz
+  199  tail -999999 full |grep 54991612760
+  200  tail -999999 full.1 |grep 54991612760
+  201  sudo apt-get update
+  202  sudo apt-get install default-jre
+  203  Java -version
+  204  java -version
+  205  sudo ./install 
+  206  sudo ./install
+  207  ls
+  208  install
+  209  cd netExtenderClient/
+  210  ls
+  211  install
+  212  ./install
+  213  cd /etc/host
+  214  apt-get install git
+  215  cd ..
+  216  mkdir TOTI
+  217  cd TOTI/
+  218  git clone git@github.com:Rubendvb/teste-git.git
+  219  git clone https://github.com/Rubendvb/teste-git
+  220  ls
+  221  cd teste-git/
+  222  ls
+  223  cd ..
+  224  ks
+  225  ls
+  226  mkdir phyton
+  227  cd phyt
+  228  cd phyton/
+  229  ls
+  230  git clone git@github.com:Rubendvb/teste-git.git
+  231  git clone https://github.com/Rubendvb/teste-git
+  232  ls
+  233  ls -lh
+  234  ls -lha
+  235  ls
+  236  cd teste-git/
+  237  vim consuelo.txt
+  238  git status
+  239  git add .
+  240  git status
+  241  git commit -m "feat: criando arquivo de consuelo.txt"
+  242  git config --global user.email "consuelo.ascanio@gmail.com"
+  243  git config --global user.name "Consuelo Ascanio"
+  244  git commit -m "feat: criando arquivo de consuelo.txt"
+  245  git push
+  246  dir
+  247  mkdir Curso_Git
+  248  cd Curso_Git/
+  249  git config user.name
+  250  git config user.email
+  251  cd ..
+  252  git config --global user.email 'consueloascanio@gmail.com'
+  253  git config user.email
+  254  cd Curso_Git/
+  255  git init
+  256  git status
+  257  echo '#Aprendendo usar o Git' > readme.md
+  258  git status
+  259  git add readme.md 
+  260  git status
+  261  git commit -m 'Commit inicial'
+  262  git status
+  263  echo '##Aula 1' >> readme.md
+  264  echo 'Consuelo Ascanio' > participantes.txt
+  265  git status
+  266  git add .
+  267  git status
+  268  git restore --stage participantes.txt
+  269  git status
+  270  git add participantes.txt
+  271  git status
+  272  git restore --staged .
+  273  git status
+  274  git commit -am 'Alteração no readme'
+  275  git status
+  276  git add participantes.txt 
+  277  git status
+  278  git commit -m 'Adicionado participantes.txt'
+  279  history > Aula_3.txt
